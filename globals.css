@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 230 20% 4%;
+    --foreground: 0 0% 98%;
+    --card: 230 20% 6%;
+    --card-foreground: 0 0% 98%;
+    --popover: 230 20% 6%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 38 92% 50%; /* Golden Orange */
+    --primary-foreground: 20 20% 10%;
+    --secondary: 230 20% 10%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 230 20% 12%;
+    --muted-foreground: 230 10% 60%;
+    --accent: 210 100% 66%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 230 20% 15%;
+    --input: 230 20% 15%;
+    --ring: 38 92% 50%;
+    --radius: 1.25rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased selection:bg-primary selection:text-primary-foreground;
+  }
+}
+
+.glass-card {
+  @apply bg-white/[0.03] backdrop-blur-xl border border-white/10 shadow-2xl;
+}
+
+.glass-button {
+  @apply bg-white/10 backdrop-blur-md border border-white/20 hover:bg-white/20 transition-all duration-300;
+}
+
+.text-gold {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-[#FFD700] via-[#FFA500] to-[#FF8C00];
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+}
+
+.hero-gradient-overlay {
+  @apply absolute inset-0 bg-gradient-to-b from-black/80 via-black/40 to-background z-10;
+}

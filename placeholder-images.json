@@ -1,0 +1,46 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-mango",
+      "description": "Premium fresh mango on a branch with sunlight",
+      "imageUrl": "https://images.unsplash.com/photo-1761592753729-266852028164?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmcmVzaCUyMG1hbmdvfGVufDB8fHx8MTc3MTM4ODI1OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fresh mango"
+    },
+    {
+      "id": "orchard-view",
+      "description": "Lush green mango orchard at sunrise",
+      "imageUrl": "https://images.unsplash.com/photo-1558261515-72bff9896df1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtYW5nbyUyMG9yY2hhcmR8ZW58MHx8fHwxNzcxMzg4MjU4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mango orchard"
+    },
+    {
+      "id": "mango-slices",
+      "description": "Perfectly sliced juicy mango on a ceramic plate",
+      "imageUrl": "https://images.unsplash.com/photo-1644204010805-90a62ab0bdc9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtYW5nbyUyMHNsaWNlc3xlbnwwfHx8fDE3NzEzODgyNTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mango slices"
+    },
+    {
+      "id": "health-mango",
+      "description": "Nutritious mango salad with greens",
+      "imageUrl": "https://images.unsplash.com/photo-1660338765002-58f397b8e4d3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtYW5nbyUyMHNhbGFkfGVufDB8fHx8MTc3MTM4ODI1OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mango salad"
+    },
+    {
+      "id": "gallery-1",
+      "description": "Close up of mango skin texture",
+      "imageUrl": "https://images.unsplash.com/photo-1635716279493-d1e30afc25a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtYW5nbyUyMGZydWl0fGVufDB8fHx8MTc3MTM4ODI1OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mango fruit"
+    },
+    {
+      "id": "gallery-2",
+      "description": "Mango tree blossom",
+      "imageUrl": "https://images.unsplash.com/photo-1664077170475-1c6b62c54fcb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtYW5nbyUyMGJsb3Nzb218ZW58MHx8fHwxNzcxMzg4MjU4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mango blossom"
+    },
+    {
+      "id": "gallery-3",
+      "description": "Traditional harvesting basket with mangos",
+      "imageUrl": "https://images.unsplash.com/photo-1663018084454-86fd8150f950?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bWFuZ28lMjBoYXJ2ZXN0fGVufDB8fHx8MTc3MTM4ODI1OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mango harvest"
+    }
+  ]
+}
